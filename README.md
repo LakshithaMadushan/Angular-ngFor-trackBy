@@ -1,3 +1,5 @@
+![alt text](https://user-images.githubusercontent.com/25295833/57847992-72e7d680-77f5-11e9-8a3a-9ad65dd8d898.gif)
+
 # TrackBy
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
