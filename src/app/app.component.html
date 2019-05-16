@@ -1,0 +1,17 @@
+<div class="wrap">
+  <div class="lud-8 lud">
+    <div class="ex-8 example">
+      <ul>
+        <div>
+          <li *ngFor="let item of collectionWithTrackId; trackBy: trackByFn">{{item.name}}</li>
+          <a (click)="withTrackBy()" class="tlacidlo">With - trackBy</a>
+        </div>
+        <div>
+          <li *ngFor="let item of collectionWithOutTrackId;">{{item.name}}</li>
+          <a (click)="withOutTrackBy()" class="tlacidlo">Without - trackBy</a>
+        </div>
+      </ul>
+    </div>
+  </div>
+</div>
+
